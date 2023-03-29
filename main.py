@@ -1,6 +1,6 @@
 #WRITE YOUR CODE IN THIS FILE
 def hasL(w):
-    for i in range(0,len(w),0):
+    for i in range(0,len(w),1):
         if w[i] == "l":
             return True
         else:
